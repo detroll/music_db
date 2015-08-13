@@ -34,6 +34,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'thin'
 
+gem 'awesome_print'
+
+gem 'annotate', '~> 2.6.6'
+
 gem 'starter_generators'
 
 gem 'quiet_assets', group: :development
