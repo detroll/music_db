@@ -59,6 +59,8 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.8)
     execjs (2.5.2)
+    faker (1.4.3)
+      i18n (~> 0.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -80,6 +82,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    populator (1.0.0)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
@@ -159,8 +162,10 @@ DEPENDENCIES
   awesome_print
   byebug
   coffee-rails (~> 4.1.0)
+  faker
   jbuilder (~> 2.0)
   jquery-rails
+  populator
   quiet_assets
   rails (= 4.2.3)
   sass-rails (~> 5.0)
